@@ -16,6 +16,8 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "dev:docs": "yarn workspace docs dev",
     "dist": "yarn workspace hd-ui dist",
+    "hd-ui:link": "yarn workspace hd-ui link",
+    "hd-ui:unlink": "yarn workspace hd-ui unlink",
     "precommit": "lint-staged",
     "pub": "lerna publish",
     "test": "jest"
