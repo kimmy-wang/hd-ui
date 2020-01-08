@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.1-alpha.0 (2020-01-08)
 
-**Note:** Version bump only for package @hd-ui/eslint-config-hd-ui
+**Note:** Version bump only for package docs
