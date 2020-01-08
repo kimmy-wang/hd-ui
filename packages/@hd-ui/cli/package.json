@@ -1,0 +1,27 @@
+{
+  "name": "@hd-ui/cli",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "hd-ui",
+    "cli"
+  ],
+  "homepage": "https://huadi.info",
+  "bugs": "https://github.com/qdhuadi/hd-ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdhuadi/hd-ui.git",
+    "directory": "packages/@hd-ui/cli"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@gmail.com> (https://github.com/upcwangying)"
+  ]
+}

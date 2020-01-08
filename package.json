@@ -1,0 +1,52 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/@hd-ui/*",
+    "packages/hd-ui",
+    "packages/docs"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build:docs": "yarn workspace docs build",
+    "codecov": "codecov",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "dev:docs": "yarn workspace docs dev",
+    "precommit": "lint-staged",
+    "pub": "lerna publish",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ],
+    "packages/**/src/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "codecov": "3.6.1",
+    "coveralls": "3.0.9",
+    "eslint": "6.7.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-import-resolver-lerna": "1.1.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-vue": "6.0.1",
+    "husky": "3.1.0",
+    "jest": "24.9.0",
+    "lerna": "3.16.4",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1",
+    "sort-package-json": "1.36.0",
+    "vue-eslint-parser": "7.0.0"
+  }
+}
