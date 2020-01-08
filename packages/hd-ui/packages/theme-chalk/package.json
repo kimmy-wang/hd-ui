@@ -1,0 +1,39 @@
+{
+  "name": "@hd-ui/theme-chalk",
+  "version": "0.0.0",
+  "description": "Hd UI component chalk theme.",
+  "keywords": [
+    "hd-ui",
+    "theme"
+  ],
+  "homepage": "https://github.com/qdhuadi/theme-chalk#readme",
+  "bugs": {
+    "url": "https://github.com/qdhuadi/theme-chalk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdhuadi/theme-chalk.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ying Wang",
+    "email": "upcwangying@gmail.com",
+    "url": "https://github.com/upcwangying"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  }
+}

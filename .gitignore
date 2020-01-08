@@ -5,6 +5,8 @@
 .temp
 *.iws
 
+lib
+
 ### Node template
 logs
 *.log
@@ -58,20 +60,8 @@ typings/
 .env
 .env.test
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-
 # vuepress build output
 .vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
 
 ### VisualStudioCode template
 .vscode/*

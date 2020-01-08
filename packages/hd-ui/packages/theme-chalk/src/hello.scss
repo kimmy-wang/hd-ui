@@ -1,0 +1,6 @@
+@import "common/var";
+@import "mixins/mixins";
+
+@include b(hello) {
+  font-size: 24px;
+}

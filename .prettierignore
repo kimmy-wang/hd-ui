@@ -3,3 +3,4 @@ package.json
 /dist
 .dockerignore
 .eslintignore
+lib
