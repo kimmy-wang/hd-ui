@@ -7,11 +7,11 @@
     "ui",
     "hd"
   ],
-  "homepage": "https://huadi.info",
-  "bugs": "https://github.com/qdhuadi/hd-ui/issues",
+  "homepage": "https://hd-ui.com",
+  "bugs": "https://github.com/hd-ui/hd-ui/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qdhuadi/hd-ui.git",
+    "url": "git+https://github.com/hd-ui/hd-ui.git",
     "directory": "packages/hd-ui"
   },
   "license": "MIT",

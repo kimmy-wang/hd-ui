@@ -6,13 +6,13 @@ module.exports = ctx => ({
     '/': {
       lang: 'en-US',
       title: 'VuePress',
-      description: 'Vue-powered Static Site Generator'
+      description: 'Vue-powered Static Site Generator',
     },
     '/zh/': {
       lang: 'zh-CN',
       title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器'
-    }
+      description: 'Vue 驱动的静态网站生成器',
+    },
   },
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
@@ -23,18 +23,20 @@ module.exports = ctx => ({
     ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
   theme: '@vuepress/vue',
   themeConfig: {
-    repo: 'qdhuadi/hd-ui',
+    repo: 'hd-ui/hd-ui',
     editLinks: true,
     docsDir: 'packages/docs/docs',
     // #697 Provided by the official algolia team.
-    algolia: ctx.isProd ? ({
-      apiKey: '3a539aab83105f01761a137c61004d85',
-      indexName: 'vuepress'
-    }) : null,
+    algolia: ctx.isProd
+      ? {
+          apiKey: '3a539aab83105f01761a137c61004d85',
+          indexName: 'vuepress',
+        }
+      : null,
     smoothScroll: true,
     locales: {
       '/': {
@@ -48,8 +50,8 @@ module.exports = ctx => ({
           '/api/': getApiSidebar(),
           '/guide/': getGuideSidebar('Guide', 'Advanced'),
           '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
-          '/theme/': getThemeSidebar('Theme', 'Introduction')
-        }
+          '/theme/': getThemeSidebar('Theme', 'Introduction'),
+        },
       },
       '/zh/': {
         label: '简体中文',
@@ -62,47 +64,53 @@ module.exports = ctx => ({
           '/zh/api/': getApiSidebar(),
           '/zh/guide/': getGuideSidebar('指南', '深入'),
           '/zh/plugin/': getPluginSidebar('插件', '介绍', '官方插件'),
-          '/zh/theme/': getThemeSidebar('主题', '介绍')
-        }
-      }
-    }
+          '/zh/theme/': getThemeSidebar('主题', '介绍'),
+        },
+      },
+    },
   },
   plugins: [
     ['@vuepress/back-to-top', true],
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: true
-    }],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
     ['@vuepress/medium-zoom', true],
-    ['@vuepress/google-analytics', {
-      ga: 'UA-128189152-1'
-    }],
-    ['container', {
-      type: 'vue',
-      before: '<pre class="vue-container"><code>',
-      after: '</code></pre>'
-    }],
-    ['container', {
-      type: 'upgrade',
-      before: info => `<UpgradePath title="${info}">`,
-      after: '</UpgradePath>'
-    }],
-    ['flowchart']
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-128189152-1',
+      },
+    ],
+    [
+      'container',
+      {
+        type: 'vue',
+        before: '<pre class="vue-container"><code>',
+        after: '</code></pre>',
+      },
+    ],
+    [
+      'container',
+      {
+        type: 'upgrade',
+        before: info => `<UpgradePath title="${info}">`,
+        after: '</UpgradePath>',
+      },
+    ],
+    ['flowchart'],
   ],
-  extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/zh.js'
-  ]
+  extraWatchFiles: ['.vuepress/nav/en.js', '.vuepress/nav/zh.js'],
 })
 
-function getApiSidebar () {
-  return [
-    'cli',
-    'node'
-  ]
+function getApiSidebar() {
+  return ['cli', 'node']
 }
 
-function getGuideSidebar (groupA, groupB) {
+function getGuideSidebar(groupA, groupB) {
   return [
     {
       title: groupA,
@@ -116,19 +124,14 @@ function getGuideSidebar (groupA, groupB) {
         'markdown',
         'using-vue',
         'i18n',
-        'deploy'
-      ]
+        'deploy',
+      ],
     },
     {
       title: groupB,
       collapsable: false,
-      children: [
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
-      ]
-    }
+      children: ['frontmatter', 'permalinks', 'markdown-slot', 'global-computed'],
+    },
   ]
 }
 
@@ -137,7 +140,7 @@ const officalPlugins = fs
   .map(filename => 'official/' + filename.slice(0, -3))
   .sort()
 
-function getPluginSidebar (pluginTitle, pluginIntro, officialPluginTitle) {
+function getPluginSidebar(pluginTitle, pluginIntro, officialPluginTitle) {
   return [
     {
       title: pluginTitle,
@@ -148,18 +151,18 @@ function getPluginSidebar (pluginTitle, pluginIntro, officialPluginTitle) {
         'writing-a-plugin',
         'life-cycle',
         'option-api',
-        'context-api'
-      ]
+        'context-api',
+      ],
     },
     {
       title: officialPluginTitle,
       collapsable: false,
-      children: officalPlugins
-    }
+      children: officalPlugins,
+    },
   ]
 }
 
-function getThemeSidebar (groupA, introductionA) {
+function getThemeSidebar(groupA, introductionA) {
   return [
     {
       title: groupA,
@@ -171,8 +174,8 @@ function getThemeSidebar (groupA, introductionA) {
         'writing-a-theme',
         'option-api',
         'default-theme-config',
-        'inheritance'
-      ]
-    }
+        'inheritance',
+      ],
+    },
   ]
 }

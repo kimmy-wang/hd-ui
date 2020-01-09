@@ -1,8 +1,8 @@
 # HD UI
 
-![Travis (.org)](https://img.shields.io/travis/qdhuadi/hd-ui)
-![GitHub](https://img.shields.io/github/license/qdhuadi/hd-ui)
-![GitHub contributors](https://img.shields.io/github/contributors/qdhuadi/hd-ui)
+![Travis (.org)](https://img.shields.io/travis/hd-ui/hd-ui)
+![GitHub](https://img.shields.io/github/license/hd-ui/hd-ui)
+![GitHub contributors](https://img.shields.io/github/contributors/hd-ui/hd-ui)
 
 [@hd-ui/cli](packages/@hd-ui/cli): .
 
@@ -15,13 +15,13 @@
 ## Issues
 
 Please file any issues, bugs, or feature requests in the [main
-repo](https://github.com/qdhuadi/hd-ui/issues/new).
+repo](https://github.com/hd-ui/hd-ui/issues/new).
 
 ## Contributing
 
 If you wish to contribute a change to any of the existing plugins in this repo,
-please review our [contribution guide](https://github.com/qdhuadi/hd-ui/blob/master/CONTRIBUTING.md),
-and send a [pull request](https://github.com/qdhuadi/hd-ui/pulls).
+please review our [contribution guide](https://github.com/hd-ui/hd-ui/blob/master/CONTRIBUTING.md),
+and send a [pull request](https://github.com/hd-ui/hd-ui/pulls).
 
 ## Plugins
 These are the available plugins in this repository.

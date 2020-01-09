@@ -6,13 +6,13 @@
     "hd-ui",
     "theme"
   ],
-  "homepage": "https://github.com/qdhuadi/theme-chalk#readme",
+  "homepage": "https://github.com/hd-ui/theme-chalk#readme",
   "bugs": {
-    "url": "https://github.com/qdhuadi/theme-chalk/issues"
+    "url": "https://github.com/hd-ui/theme-chalk/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qdhuadi/theme-chalk.git"
+    "url": "git+https://github.com/hd-ui/theme-chalk.git"
   },
   "license": "MIT",
   "author": {
