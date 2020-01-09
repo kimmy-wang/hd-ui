@@ -16,7 +16,7 @@ module.exports = {
         'hd-ui',
         'hd-ui-example',
         ...HdUiPackages
-      ].map(name => `$${name}`)
+      ].map(name => `$${name}`).concat('release')
     ]
   }
 }
