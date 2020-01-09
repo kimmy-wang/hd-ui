@@ -5,12 +5,12 @@ module.exports = ctx => ({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'HDUI',
+      title: 'HD UI',
       description: 'A Component Library for Vue.js based on Element.',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'HDUI',
+      title: 'HD UI',
       description: '一个基于Element的Vue组件库.',
     },
   },
@@ -25,7 +25,7 @@ module.exports = ctx => ({
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
-  theme: '@vuepress/vue',
+  theme: '@vuepress/default',
   themeConfig: {
     repo: 'hd-ui/hd-ui',
     editLinks: true,
@@ -50,7 +50,6 @@ module.exports = ctx => ({
           '/api/': getApiSidebar(),
           '/guide/': getGuideSidebar('Guide', 'Advanced'),
           '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
-          '/theme/': getThemeSidebar('Theme', 'Introduction'),
         },
       },
       '/zh/': {
@@ -64,7 +63,6 @@ module.exports = ctx => ({
           '/zh/api/': getApiSidebar(),
           '/zh/guide/': getGuideSidebar('指南', '深入'),
           '/zh/plugin/': getPluginSidebar('插件', '介绍', '官方插件'),
-          '/zh/theme/': getThemeSidebar('主题', '介绍'),
         },
       },
     },
@@ -158,24 +156,6 @@ function getPluginSidebar(pluginTitle, pluginIntro, officialPluginTitle) {
       title: officialPluginTitle,
       collapsable: false,
       children: officalPlugins,
-    },
-  ]
-}
-
-function getThemeSidebar(groupA, introductionA) {
-  return [
-    {
-      title: groupA,
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        ['', introductionA],
-        'using-a-theme',
-        'writing-a-theme',
-        'option-api',
-        'default-theme-config',
-        'inheritance',
-      ],
     },
   ]
 }

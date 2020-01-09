@@ -1,19 +1,15 @@
 module.exports = [
   {
     text: 'Guide',
-    link: '/guide/'
+    link: '/guide/',
   },
   {
     text: 'Config Reference',
-    link: '/config/'
+    link: '/config/',
   },
   {
     text: 'Plugin',
-    link: '/plugin/'
-  },
-  {
-    text: 'Theme',
-    link: '/theme/'
+    link: '/plugin/',
   },
   {
     text: 'Learn More',
@@ -24,52 +20,52 @@ module.exports = [
         items: [
           {
             text: 'CLI',
-            link: '/api/cli.html'
+            link: '/api/cli.html',
           },
           {
             text: 'Node',
-            link: '/api/node.html'
-          }
-        ]
+            link: '/api/node.html',
+          },
+        ],
       },
       {
         text: 'Contributing Guide',
         items: [
           {
             text: 'Local Development',
-            link: '/miscellaneous/local-development.html'
+            link: '/miscellaneous/local-development.html',
           },
           {
             text: 'Design Concepts',
-            link: '/miscellaneous/design-concepts.html'
+            link: '/miscellaneous/design-concepts.html',
           },
           {
             text: 'FAQ',
-            link: '/faq/'
+            link: '/faq/',
           },
           {
             text: 'Glossary',
-            link: '/miscellaneous/glossary.html'
-          }
-        ]
+            link: '/miscellaneous/glossary.html',
+          },
+        ],
       },
       {
         text: 'Miscellaneous',
         items: [
           {
             text: 'Migrate from 0.x',
-            link: '/miscellaneous/migration-guide.html'
+            link: '/miscellaneous/migration-guide.html',
           },
           {
             text: 'Changelog',
-            link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md'
-          }
-        ]
-      }
-    ]
+            link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md',
+          },
+        ],
+      },
+    ],
   },
   {
-    text: '0.x',
-    link: 'https://v0.vuepress.vuejs.org/'
-  }
+    text: 'Example',
+    link: 'https://example.hd-ui.com/',
+  },
 ]
