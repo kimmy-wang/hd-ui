@@ -5,13 +5,13 @@ module.exports = ctx => ({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'VuePress',
-      description: 'Vue-powered Static Site Generator',
+      title: 'HDUI',
+      description: 'A Component Library for Vue.js based on Element.',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器',
+      title: 'HDUI',
+      description: '一个基于Element的Vue组件库.',
     },
   },
   head: [

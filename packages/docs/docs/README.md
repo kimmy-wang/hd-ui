@@ -3,7 +3,7 @@ home: true
 heroImage: /hero.png
 actionText: Get Started →
 actionLink: /guide/
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2019-present hd-ui.com
 ---
 
 <div style="text-align: center">

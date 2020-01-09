@@ -1,5 +1,7 @@
 # HD UI
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7857ddb-766b-427b-8f8c-cfeddb63f4d9/deploy-status)](https://app.netlify.com/sites/hd-ui/deploys)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fhd-ui.com)
 ![Travis (.org)](https://img.shields.io/travis/hd-ui/hd-ui)
 ![GitHub](https://img.shields.io/github/license/hd-ui/hd-ui)
 ![GitHub contributors](https://img.shields.io/github/contributors/hd-ui/hd-ui)
