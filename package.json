@@ -20,11 +20,13 @@
     "hd-ui:unlink": "yarn workspace hd-ui unlink",
     "precommit": "lint-staged",
     "pub": "lerna publish",
+    "release": "node scripts/release.js",
     "test": "jest"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -38,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
     "babel-eslint": "10.0.3",
     "codecov": "3.6.1",
     "coveralls": "3.0.9",
