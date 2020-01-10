@@ -17,6 +17,7 @@
   "license": "MIT",
   "main": "lib/hd-ui.common.js",
   "unpkg": "lib/index.js",
+  "typings": "types/index.d.ts",
   "style": "lib/theme-chalk/index.css",
   "scripts": {
     "build:file": "node build/bin/iconInit.js & node build/bin/build-entry.js",

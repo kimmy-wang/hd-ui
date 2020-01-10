@@ -42,7 +42,6 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "babel-eslint": "10.0.3",
     "codecov": "3.6.1",
     "coveralls": "3.0.9",
     "eslint": "6.7.1",
