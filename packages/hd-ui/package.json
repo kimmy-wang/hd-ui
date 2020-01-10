@@ -15,11 +15,6 @@
     "directory": "packages/hd-ui"
   },
   "license": "MIT",
-  "files": [
-    "lib",
-    "src",
-    "packages"
-  ],
   "main": "lib/hd-ui.common.js",
   "unpkg": "lib/index.js",
   "style": "lib/theme-chalk/index.css",
