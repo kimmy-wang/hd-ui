@@ -1,0 +1,4 @@
+{
+  "hd-ui-example": "../packages/hd-ui/examples/hd-ui-example",
+  "hd-ui-example-ts": "../packages/hd-ui/examples/hd-ui-example-ts"
+}

@@ -25,6 +25,8 @@
     "build:utils": "cross-env BABEL_ENV=utils babel src --out-dir lib --ignore src/index.js",
     "clean": "rimraf lib && rimraf packages/*/lib && rimraf test/**/coverage",
     "dist": "npm run clean && npm run build:file && webpack --config build/webpack.conf.js && webpack --config build/webpack.common.js && webpack --config build/webpack.component.js && npm run build:utils && npm run build:theme",
+    "examples:build": "cd examples/hd-ui-example && npm run build && cd .. && cd hd-ui-example-ts && npm run build",
+    "examples:install": "cd examples/hd-ui-example && yarn install && cd .. && cd hd-ui-example-ts && yarn install",
     "link": "yarn link",
     "test": "echo \"Error: no test specified\" && exit 1",
     "unlink": "yarn unlink"
