@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "hd-ui": "0.0.2",
+    "hd-ui": "0.0.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {

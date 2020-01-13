@@ -4631,10 +4631,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-hd-ui@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npm.taobao.org/hd-ui/download/hd-ui-0.0.2.tgz?cache=0&sync_timestamp=1578648489346&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhd-ui%2Fdownload%2Fhd-ui-0.0.2.tgz#59955425bd66e90d94cde80e8a2649d35ecb01f0"
-  integrity sha1-WZVUJb1m6Q2UzegOiiZJ017LAfA=
+hd-ui@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npm.taobao.org/hd-ui/download/hd-ui-0.0.3.tgz#1c718032a90ccbae95c790e80bac55e209827285"
+  integrity sha1-HHGAMqkMy66Vx5DoC6xV4gmCcoU=
 
 he@1.2.x, he@^1.1.0:
   version "1.2.0"
