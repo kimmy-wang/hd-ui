@@ -17,7 +17,7 @@
     "dev:docs": "yarn workspace docs dev",
     "dist": "yarn workspace hd-ui dist",
     "examples:build": "yarn workspace hd-ui examples:build",
-    "examples:dist": "yarn examples:install && yarn build:examples && node ./scripts/examples.js",
+    "examples:dist": "yarn examples:install && yarn examples:build && node ./scripts/examples.js",
     "examples:install": "yarn workspace hd-ui examples:install",
     "hd-ui:link": "yarn workspace hd-ui link",
     "hd-ui:unlink": "yarn workspace hd-ui unlink",
