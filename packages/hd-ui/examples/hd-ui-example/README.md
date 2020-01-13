@@ -1,7 +1,7 @@
-# hd-ui-demo
+# hd-ui-example
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d7f4859c-2098-4d83-b0e2-46d3f75efb21/deploy-status)](https://app.netlify.com/sites/hd-ui-example/deploys)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fexample.hd-ui.com)](https://example.hd-ui.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1828d47-48eb-43d1-8cf1-6e464adda839/deploy-status)](https://app.netlify.com/sites/hd-ui-examples/deploys)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fexamples.hd-ui.com/hd-ui-example)](https://examples.hd-ui.com/hd-ui-example)
 
 ## Project setup
 ```
