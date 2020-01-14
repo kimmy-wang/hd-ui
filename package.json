@@ -22,7 +22,7 @@
     "hd-ui:link": "yarn workspace hd-ui link",
     "hd-ui:unlink": "yarn workspace hd-ui unlink",
     "precommit": "lint-staged",
-    "pub": "lerna publish",
+    "pub": "lerna publish from-git",
     "release": "node scripts/release.js",
     "test": "jest"
   },
