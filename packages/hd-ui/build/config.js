@@ -7,7 +7,7 @@ const utilsList = fs.readdirSync(path.resolve(__dirname, '../src/utils'))
 let externals = {}
 
 Object.keys(Components).forEach(function(key) {
-  externals[`hd-ui/packages/${key}`] = `hd-ui/lib/${key}`
+  externals[`hd-ui/components/${key}`] = `hd-ui/lib/${key}`
 })
 
 utilsList.forEach(function(file) {
@@ -29,7 +29,7 @@ exports.externals = externals
 
 exports.alias = {
   main: path.resolve(__dirname, '../src'),
-  packages: path.resolve(__dirname, '../packages'),
+  components: path.resolve(__dirname, '../components'),
   examples: path.resolve(__dirname, '../examples'),
   'hd-ui': path.resolve(__dirname, '../'),
 }
