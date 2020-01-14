@@ -3,7 +3,7 @@ const path = require('path')
 let Components = require('../../components.json')
 const themes = ['theme-chalk']
 Components = Object.keys(Components)
-const basepath = path.resolve(__dirname, '../../packages/')
+const basepath = path.resolve(__dirname, '../../components/')
 
 function fileExists(filePath) {
   try {

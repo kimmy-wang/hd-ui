@@ -17,6 +17,7 @@ module.exports = {
         'examples',
         ...HdUiPackages
       ].map(name => `$${name}`).concat('release')
-    ]
+    ],
+    'subject-case': [0, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
   }
 }

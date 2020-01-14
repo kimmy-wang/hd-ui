@@ -37,7 +37,7 @@
       "sort-package-json",
       "git add"
     ],
-    "packages/**/!(lib|examples)/**/*.js": [
+    "packages/**/!(lib|examples)/**/*.{js,jsx,vue,ts,tsx}": [
       "prettier --write",
       "git add"
     ]

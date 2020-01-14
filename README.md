@@ -1,5 +1,7 @@
 # HD UI
 
+A Component Library for Vue.js based on Element.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d7857ddb-766b-427b-8f8c-cfeddb63f4d9/deploy-status)](https://app.netlify.com/sites/hd-ui/deploys)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhd-ui.com)
 ![Travis (.org)](https://img.shields.io/travis/hd-ui/hd-ui)
@@ -12,7 +14,9 @@
 
 [@hd-ui/eslint-plugin-hd-ui](packages/@hd-ui/eslint-plugin-hd-ui): .
 
-[hd-ui](packages/hd-ui): .
+[@hd-ui/vuepress-theme-hd-ui](packages/@hd-ui/vuepress-theme-hd-ui): A theme based on Vuepress for HD UI.
+
+[hd-ui](packages/hd-ui): A Component Library for Vue.js based on Element.
 
 ## Issues
 
@@ -33,6 +37,7 @@ These are the available plugins in this repository.
 | [@hd-ui/cli](./packages/@hd-ui/cli) | [![Npm](https://img.shields.io/npm/v/@hd-ui/cli)](https://www.npmjs.com/package/@hd-ui/cli) |
 | [@hd-ui/eslint-config-hd-ui](./packages/@hd-ui/eslint-config-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/eslint-config-hd-ui)](https://www.npmjs.com/package/@hd-ui/eslint-config-hd-ui) |
 | [@hd-ui/eslint-plugin-hd-ui](./packages/@hd-ui/eslint-plugin-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/eslint-plugin-hd-ui)](https://www.npmjs.com/package/@hd-ui/eslint-plugin-hd-ui) |
+| [@hd-ui/vuepress-theme-hd-ui](./packages/@hd-ui/vuepress-theme-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/vuepress-theme-hd-ui)](https://www.npmjs.com/package/@hd-ui/vuepress-theme-hd-ui) |
 | [hd-ui](./packages/hd-ui) | [![Npm](https://img.shields.io/npm/v/hd-ui)](https://www.npmjs.com/package/hd-ui) |
 
 ## Contributors
