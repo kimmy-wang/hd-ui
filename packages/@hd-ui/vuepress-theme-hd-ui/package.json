@@ -1,6 +1,6 @@
 {
   "name": "@hd-ui/vuepress-theme-hd-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A theme based on Vuepress for HD UI.",
   "keywords": [
     "vue",
