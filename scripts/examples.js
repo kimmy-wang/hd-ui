@@ -18,10 +18,7 @@ Object.keys(examples).forEach(function(key) {
   copyFuns.push(
     new Promise((resolve, reject) => {
       fse
-        .copy(
-          path.resolve(__dirname, `${examples[key]}/dist`),
-          path.resolve(__dirname, `../examples/${key}`),
-        )
+        .copy(src, dest)
         .then(() => resolve(`${key} success.`))
         .catch(err => reject(`${key} ${err}.`))
     }),
