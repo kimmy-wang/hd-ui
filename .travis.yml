@@ -13,7 +13,7 @@ install:
   - yarn install
 
 script:
-  - npm run test
+  - yarn test
 
 after_script:
-  - npm run codecov && npm run coveralls
+  - yarn codecov

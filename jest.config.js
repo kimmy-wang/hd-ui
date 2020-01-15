@@ -10,6 +10,7 @@ module.exports = {
 
   // Respect "browser" field in package.json when resolving modules
   // browser: false,
+  browser: true,
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\upcwa\\AppData\\Local\\Temp\\jest",
@@ -60,6 +61,18 @@ module.exports = {
 
   // A set of global variables that need to be available in all test environments
   // globals: {},
+  globals: {
+    'vue-jest': {
+      'vue-jest': {
+        babelConfig: true,
+      },
+    },
+    // window: {
+    //   navigator: {
+    //     userAgent: 'node',
+    //   },
+    // },
+  },
 
   // The maximum amount of workers used to run your tests. Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
   // maxWorkers: "50%",
@@ -78,6 +91,7 @@ module.exports = {
   //   "tsx",
   //   "node"
   // ],
+  moduleFileExtensions: ['js', 'json', 'jsx', 'ts', 'tsx', 'node', 'vue'],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
@@ -133,7 +147,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -148,9 +162,7 @@ module.exports = {
   // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  // testPathIgnorePatterns: [
-  //   "\\\\node_modules\\\\"
-  // ],
+  testPathIgnorePatterns: ['node_modules', 'examples'],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
@@ -169,6 +181,11 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   // transform: null,
+  transform: {
+    '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.vue$': 'vue-jest',
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [

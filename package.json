@@ -13,7 +13,6 @@
     "build:theme": "yarn workspace hd-ui build:theme",
     "build:utils": "yarn workspace hd-ui build:utils",
     "codecov": "codecov",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "dev:docs": "yarn workspace docs dev",
     "dist": "yarn workspace hd-ui dist",
     "examples:build": "yarn workspace hd-ui examples:build",
@@ -43,10 +42,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "7.8.3",
+    "@babel/preset-env": "7.8.3",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
     "codecov": "3.6.1",
-    "coveralls": "3.0.9",
     "eslint": "6.7.1",
     "eslint-config-prettier": "6.7.0",
     "eslint-import-resolver-lerna": "1.1.0",
@@ -60,6 +62,9 @@
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "sort-package-json": "1.36.0",
-    "vue-eslint-parser": "7.0.0"
+    "ts-jest": "24.3.0",
+    "typescript": "3.7.4",
+    "vue-eslint-parser": "7.0.0",
+    "vue-jest": "3.0.5"
   }
 }
