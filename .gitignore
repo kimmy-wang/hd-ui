@@ -72,3 +72,5 @@ typings/
 
 package-lock.json
 examples/*/
+
+coverage
