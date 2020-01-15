@@ -3,7 +3,7 @@
 A Component Library for Vue.js based on Element.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d7857ddb-766b-427b-8f8c-cfeddb63f4d9/deploy-status)](https://app.netlify.com/sites/hd-ui/deploys)
-[![codecov](https://codecov.io/gh/hd-ui/hd-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/hd-ui/hd-ui)
+[![Codecov](https://img.shields.io/codecov/c/gh/hd-ui/hd-ui)](https://codecov.io/gh/hd-ui/hd-ui)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhd-ui.com)
 ![Travis (.org)](https://img.shields.io/travis/hd-ui/hd-ui)
 ![GitHub](https://img.shields.io/github/license/hd-ui/hd-ui)
