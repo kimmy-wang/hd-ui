@@ -29,6 +29,7 @@
     "view-info": "vuepress view-info docs --temp .temp"
   },
   "devDependencies": {
+    "@hd-ui/vuepress-theme-hd-ui": "0.0.1",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.7",
     "@vuepress/plugin-back-to-top": "1.1.0",
     "@vuepress/plugin-google-analytics": "1.1.0",
