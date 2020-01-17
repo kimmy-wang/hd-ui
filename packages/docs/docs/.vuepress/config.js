@@ -30,13 +30,6 @@ module.exports = ctx => ({
     repo: 'hd-ui/hd-ui',
     editLinks: true,
     docsDir: 'packages/docs/docs',
-    // #697 Provided by the official algolia team.
-    algolia: ctx.isProd
-      ? {
-          apiKey: '3a539aab83105f01761a137c61004d85',
-          indexName: 'vuepress',
-        }
-      : null,
     smoothScroll: true,
     locales: {
       '/': {
@@ -77,12 +70,6 @@ module.exports = ctx => ({
       },
     ],
     ['@vuepress/medium-zoom', true],
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'UA-128189152-1',
-      },
-    ],
     [
       'container',
       {
