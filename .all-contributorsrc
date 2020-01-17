@@ -7,7 +7,19 @@
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "skipCi": true,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "upcwangying",
+      "name": "upcwangying",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19725091?v=4",
+      "profile": "https://upcwangying.com",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
   "projectName": "hd-ui",
   "projectOwner": "hd-ui",
   "repoType": "github",
