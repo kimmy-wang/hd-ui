@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/hd-ui/hd-ui/compare/hd-ui@0.0.4...hd-ui@0.0.5) (2020-02-08)
+
+
+### Features
+
+* **$examples:** update dependencies ([d467cf5](https://github.com/hd-ui/hd-ui/commit/d467cf56fb495bd29464c9a143637fea2bc41b12))
+
+
+
+
+
 ## [0.0.4](https://github.com/hd-ui/hd-ui/compare/hd-ui@0.0.3...hd-ui@0.0.4) (2020-01-15)
 
 
