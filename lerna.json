@@ -1,6 +1,7 @@
 {
   "command": {
     "publish": {
+      "graphType": "all",
       "conventionalCommits": true
     },
     "version": {
