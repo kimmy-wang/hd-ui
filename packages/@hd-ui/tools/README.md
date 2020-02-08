@@ -5,7 +5,12 @@
 tools for [HD UI](https://hd-ui.com) projects
 
 ```npm
+hd-ui-tools build file
+hd-ui-tools build theme
+hd-ui-tools build utils
 
+hd-ui-tools run clean
+hd-ui-tools run dist
 ```
 
 ## License

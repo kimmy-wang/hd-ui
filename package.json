@@ -12,6 +12,7 @@
     "build:file": "yarn workspace hd-ui build:file",
     "build:theme": "yarn workspace hd-ui build:theme",
     "build:utils": "yarn workspace hd-ui build:utils",
+    "clean": "yarn workspace hd-ui clean",
     "codecov": "codecov",
     "dev:docs": "yarn workspace docs dev",
     "dist": "yarn workspace hd-ui dist",

@@ -1,5 +1,5 @@
 ;['project-helper', 'module'].forEach(m => {
-  Object.assign(exports, require(`./lib/${m}`))
+  Object.assign(exports, require(`./libs/${m}`))
 })
 
 exports.chalk = require('chalk')

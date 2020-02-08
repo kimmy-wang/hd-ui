@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('../lib/cli/build')
+require('../libs/cli/build')
