@@ -17,7 +17,11 @@
 
 [@hd-ui/vuepress-theme-hd-ui](packages/@hd-ui/vuepress-theme-hd-ui): A theme based on Vuepress for [HD UI](https://hd-ui.com).
 
-[hd-ui](packages/hd-ui): A Component Library for Vue.js based on Element.
+[@hd-ui/shared-utils](packages/@hd-ui/shared-utils): shared-utils for [HD UI](https://hd-ui.com).
+
+[@hd-ui/tools](packages/@hd-ui/tools): tools for [HD UI](https://hd-ui.com).
+
+[hd-ui](packages/hd-ui): A Component Library for [Vue.js](https://cn.vuejs.org) based on [Element](https://element.eleme.cn).
 
 ## Issues
 
@@ -39,6 +43,8 @@ These are the available packages in this repository.
 | [@hd-ui/eslint-config-hd-ui](./packages/@hd-ui/eslint-config-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/eslint-config-hd-ui)](https://www.npmjs.com/package/@hd-ui/eslint-config-hd-ui) |
 | [@hd-ui/eslint-plugin-hd-ui](./packages/@hd-ui/eslint-plugin-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/eslint-plugin-hd-ui)](https://www.npmjs.com/package/@hd-ui/eslint-plugin-hd-ui) |
 | [@hd-ui/vuepress-theme-hd-ui](./packages/@hd-ui/vuepress-theme-hd-ui) | [![Npm](https://img.shields.io/npm/v/@hd-ui/vuepress-theme-hd-ui)](https://www.npmjs.com/package/@hd-ui/vuepress-theme-hd-ui) |
+| [@hd-ui/shared-utils](./packages/@hd-ui/shared-utils) | [![Npm](https://img.shields.io/npm/v/@hd-ui/shared-utils)](https://www.npmjs.com/package/@hd-ui/shared-utils) |
+| [@hd-ui/tools](./packages/@hd-ui/tools) | [![Npm](https://img.shields.io/npm/v/@hd-ui/tools)](https://www.npmjs.com/package/@hd-ui/tools) |
 | [hd-ui](./packages/hd-ui) | [![Npm](https://img.shields.io/npm/v/hd-ui)](https://www.npmjs.com/package/hd-ui) |
 
 ## Contributors
