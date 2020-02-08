@@ -1,0 +1,42 @@
+{
+  "name": "@hd-ui/tools",
+  "version": "0.0.0",
+  "description": "tools for HD UI",
+  "keywords": [
+    "hd-ui",
+    "hd",
+    "ui",
+    "tools"
+  ],
+  "homepage": "https://hd-ui.com",
+  "bugs": "https://github.com/hd-ui/hd-ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hd-ui/hd-ui.git",
+    "directory": "packages/@hd-ui/tools"
+  },
+  "license": "MIT",
+  "bin": {
+    "hd-ui-tools": "./bin/hd-ui-tools.js",
+    "hd-ui-tools-build": "./bin/hd-ui-tools-build.js",
+    "hd-ui-tools-run": "./bin/hd-ui-tools-run.js"
+  },
+  "scripts": {
+    "test": "echo \"Info: test finished\" && exit 0"
+  },
+  "dependencies": {
+    "@hd-ui/shared-utils": "^0.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "colorful": "^2.1.0",
+    "commander": "^4.0.1",
+    "gulp": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@gmail.com> (https://github.com/upcwangying)"
+  ]
+}
