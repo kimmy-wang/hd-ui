@@ -1,9 +1,11 @@
 {
   "name": "@hd-ui/cli",
   "version": "0.0.2",
-  "description": "",
+  "description": "A `cli` tool for quickly generating HD UI projects",
   "keywords": [
     "hd-ui",
+    "hd",
+    "ui",
     "cli"
   ],
   "homepage": "https://hd-ui.com",
