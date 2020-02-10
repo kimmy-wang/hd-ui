@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/@hd-ui/*",
     "packages/hd-ui",
+    "packages/hd-ui-react",
     "packages/docs"
   ],
   "scripts": {
