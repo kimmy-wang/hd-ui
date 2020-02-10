@@ -1,0 +1,29 @@
+{
+  "name": "hd-ui-react",
+  "version": "0.0.0",
+  "description": "A Component Library for React.js.",
+  "keywords": [
+    "react",
+    "hd-ui",
+    "hd",
+    "ui"
+  ],
+  "homepage": "https://hd-ui.com",
+  "bugs": "https://github.com/hd-ui/hd-ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hd-ui/hd-ui.git",
+    "directory": "packages/hd-ui-react"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Info: test finished\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@126.com> (https://github.com/upcwangying)"
+  ]
+}
