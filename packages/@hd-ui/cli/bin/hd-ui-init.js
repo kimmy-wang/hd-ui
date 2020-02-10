@@ -32,7 +32,7 @@ program
  * Help.
  */
 
-program.on('--help', () => {
+program.on('--help', function() {
   console.log('  Examples:')
   console.log()
   console.log(chalk.gray('    # create a new project with an official template'))
