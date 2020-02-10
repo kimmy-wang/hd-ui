@@ -4,8 +4,20 @@ const examples = require('../examples/examples.json')
 
 const copyFuns = []
 
+const allExamples = {}
 Object.keys(examples).forEach(function(key) {
-  const src = path.resolve(__dirname, `${examples[key]['url']}/dist`)
+  const exampleByLang = examples[key]
+  if (exampleByLang) {
+    Object.keys(exampleByLang).forEach(function(keyLang) {
+      allExamples[`${key}-${keyLang}`] = exampleByLang[keyLang]
+    })
+  }
+})
+
+console.log(allExamples)
+
+Object.keys(allExamples).forEach(function(key) {
+  const src = path.resolve(__dirname, `${allExamples[key]['url']}/dist`)
   const dest = path.resolve(__dirname, `../examples/${key}`)
   if (!fse.pathExistsSync(src)) {
     console.error(`Error: no such file or directory, ${src}.`)

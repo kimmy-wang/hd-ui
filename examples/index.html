@@ -14,13 +14,23 @@
 <ul id="examples">
 </ul>
 <script type="text/javascript">
-  var $list = $("#examples");
+  const $list = $("#examples");
 
   $.get("https://raw.githubusercontent.com/hd-ui/hd-ui/master/examples/examples.json", function(data) {
     console.log(data)
-    var examples = JSON.parse(data);
-    for(var key in examples) {
-      $list.append('<li><a href="' + key + '">' + examples[key]['title'] + '</a></li>');
+    const examples = JSON.parse(data);
+    const allExamples = {}
+    Object.keys(examples).forEach(function(key) {
+      const exampleByLang = examples[key]
+      if (exampleByLang) {
+        Object.keys(exampleByLang).forEach(function(keyLang) {
+          allExamples[`${key}-${keyLang}`] = exampleByLang[keyLang]
+        })
+      }
+    })
+    console.log(allExamples)
+    for(let key in allExamples) {
+      $list.append('<li><a href="' + key + '">' + allExamples[key]['title'] + '</a></li>');
     }
   });
 </script>

@@ -1,10 +1,15 @@
 {
-  "hd-ui-example": {
-    "title": "HD UI Example",
-    "url": "../packages/hd-ui/examples/hd-ui-example"
+  "vue": {
+    "hd-ui-example": {
+      "title": "HD UI Example",
+      "url": "../packages/hd-ui/examples/hd-ui-example"
+    },
+    "hd-ui-example-ts": {
+      "title": "HD UI Example Ts",
+      "url": "../packages/hd-ui/examples/hd-ui-example-ts"
+    }
   },
-  "hd-ui-example-ts": {
-    "title": "HD UI Example Ts",
-    "url": "../packages/hd-ui/examples/hd-ui-example-ts"
+  "react": {
+
   }
 }
