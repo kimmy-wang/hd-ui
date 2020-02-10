@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "A Component Library for Vue.js.",
   "keywords": [
+    "vue",
     "hd-ui",
     "ui",
     "hd"
