@@ -71,6 +71,5 @@ typings/
 !.vscode/extensions.json
 
 package-lock.json
-examples/*/
 
 coverage
