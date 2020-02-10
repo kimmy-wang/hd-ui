@@ -1,6 +1,6 @@
 {
   "name": "@hd-ui/eslint-config-hd-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A shareable configuration plugin of ESLint, used by HD UI.",
   "keywords": [
     "eslint",
