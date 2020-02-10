@@ -5,7 +5,7 @@ const examples = require('../examples/examples.json')
 const copyFuns = []
 
 Object.keys(examples).forEach(function(key) {
-  const src = path.resolve(__dirname, `${examples[key]}/dist`)
+  const src = path.resolve(__dirname, `${examples[key]['url']}/dist`)
   const dest = path.resolve(__dirname, `../examples/${key}`)
   if (!fse.pathExistsSync(src)) {
     console.error(`Error: no such file or directory, ${src}.`)

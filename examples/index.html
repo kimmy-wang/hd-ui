@@ -7,12 +7,22 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="example.png">
   <link rel="stylesheet" href="global.css">
+  <script src="js/jquery.min.js"></script>
 </head>
 <body>
 <h1>HD UI Examples</h1>
-<ul>
-  <li><a href="hd-ui-example">HD UI Example</a></li>
-  <li><a href="hd-ui-example-ts">HD UI Example Ts</a></li>
+<ul id="examples">
 </ul>
+<script type="text/javascript">
+  var $list = $("#examples");
+
+  $.get("https://raw.githubusercontent.com/hd-ui/hd-ui/master/examples/examples.json", function(data) {
+    console.log(data)
+    var examples = JSON.parse(data);
+    for(var key in examples) {
+      $list.append('<li><a href="' + key + '">' + examples[key]['title'] + '</a></li>');
+    }
+  });
+</script>
 </body>
 </html>
