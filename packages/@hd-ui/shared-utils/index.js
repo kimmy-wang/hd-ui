@@ -1,4 +1,4 @@
-;['project-helper', 'module'].forEach(m => {
+;['project-helper', 'env', 'module'].forEach(m => {
   Object.assign(exports, require(`./libs/${m}`))
 })
 
