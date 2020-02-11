@@ -7,7 +7,7 @@ module.exports = function getRunCmdEnv() {
   Object.keys(process.env).forEach(key => {
     env[key] = process.env[key]
   })
-  // make sure `antd-tools/node_modules/.bin` in the PATH env
+  // make sure `@hd-ui/tools/node_modules/.bin` in the PATH env
   const nodeModulesBinDir = path.join(__dirname, '../../node_modules/.bin')
 
   Object.entries(env)
