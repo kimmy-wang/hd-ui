@@ -1,7 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 package.json
-/dist
+dist
 .dockerignore
 .eslintignore
 lib
+es
 examples
